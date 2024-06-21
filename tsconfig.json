@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": false,
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./build",
+    "baseUrl": "./",
+    "incremental": true,
+    "jsx": "react",
+  },
+  "include": [
+    "src/**/*",
+    "tests",
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "build"
+  ]
+}
