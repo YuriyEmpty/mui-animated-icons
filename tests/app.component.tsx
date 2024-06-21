@@ -12,11 +12,11 @@ import { IconButton } from "@mui/material";
 
 const IconOne: FunctionComponent = () => {
     const [ Node, animationAPI ] = useAnimation({
-        component: Hail,
+        component: SunMoon,
         IconProps: {
             fontSize: "small",
-            sx:  {
-
+            sx: {
+                fontSize: "12rem"
             }
         },
         options: {
